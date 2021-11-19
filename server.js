@@ -42,6 +42,10 @@ app.get("/recipes/details/:recipeName", function (req, res) {
   });
 });
 
+app.post("/recipes", function (req, res) {
+  
+});
+
 app.listen(port, () => {
   console.log(`Live on localhost ${port}!`);
 });
